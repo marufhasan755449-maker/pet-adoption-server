@@ -16,7 +16,9 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "http://localhost:5174"
+      "http://localhost:5174",
+      "https://pet-adoption-client-beta.vercel.app",
+      "https://pet-adoption-client-l8th96ydw-marufhasan755449-8051s-projects.vercel.app"
     ],
     credentials: true,
   })
